@@ -5,7 +5,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from telegram import Update, MenuButtonWebApp, WebAppInfo
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-BOT_TOKEN = os.environ["8927029057:AAHyCw1K2vx8_u-jji8V1hysAKm2Fjf6q6U"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 WEBAPP_URL = os.environ["https://quiz-webapp-4w7l.onrender.com"]  # masalan: https://sizning-app.onrender.com
 PORT = int(os.environ.get("PORT", 10000))
 
